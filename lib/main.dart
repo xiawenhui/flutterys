@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const MyHomePage(),
-    );
+    );  
   }
 }
 
@@ -30,6 +30,7 @@ class MyHomePage extends StatelessWidget {
         decoration: BoxDecoration(
           image: DecorationImage(
             image: NetworkImage('https://picsum.photos/800/1600'),  // 这里使用示例图片，您可以替换为实际的图片
+            
             fit: BoxFit.cover,
           ),
           gradient: LinearGradient(
